@@ -37,6 +37,7 @@ h2{
     /* width:75%; */
     max-width: 1440px;
     margin:0 auto;
+    padding:0 55px;
 }
 .content-heading{
     max-width:500px;
