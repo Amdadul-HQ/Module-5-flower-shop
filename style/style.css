@@ -189,3 +189,44 @@ footer{
    color:rgba(255, 255, 255, 0.40);
     text-align:center;
 }
+
+/* Media quarry */
+@media screen and (max-width:576px) {
+    .bennar, .social-flower-continer, .service, .hot-deal, .flowers-continer{
+        flex-direction:column-reverse;
+    }
+    form{
+        flex-direction: column;
+    }
+    .social-flower-continer{
+        text-align: center;
+    }
+    .flowers-continer{
+        width: 80%;
+        margin:0 auto;
+        align-items: center;
+    }
+    .flowers-img img{
+        width: 100%;
+    }
+    .flowers-img{
+        width: 350px;
+    }
+    .flowers-content{
+        padding:50px;
+    }
+    .continer{
+        padding:0 10px;
+    }
+    .heading{
+        font-size:45px;
+        margin:0;
+    }
+    .description{
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    .header-img img{
+        width: 92%;
+    }
+}
